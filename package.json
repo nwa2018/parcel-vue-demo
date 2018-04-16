@@ -30,7 +30,8 @@
     "page": "^1.8.6",
     "parcel-bundler": "^1.7.1",
     "vue": "^2.5.16",
-    "vue-hot-reload-api": "^2.3.0"
+    "vue-hot-reload-api": "^2.3.0",
+    "strict-uri-encode": "^2.0.0"
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^1.0.0",
