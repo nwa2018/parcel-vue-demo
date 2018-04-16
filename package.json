@@ -1,0 +1,42 @@
+{
+  "name": "parcel-vue-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwa2018/parcel-vue-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nwa2018/parcel-vue-demo/issues"
+  },
+  "alias": {
+    "page": "./src/page"
+  },
+  "scripts": {
+    "dev": "rm -rf .cache && parcel serve ./index.html --open -p 4567 --out-dir public",
+    "build": "rm -rf .cache public && parcel build ./index.html --out-dir public"
+  },
+  "homepage": "https://github.com/nwa2018/parcel-vue-demo#readme",
+  "dependencies": {
+    "babel-plugin-runtime": "^1.0.7",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "page": "^1.8.6",
+    "parcel-bundler": "^1.7.1",
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^1.0.0",
+    "babel-core": "^6.26.0",
+    "pug": "^2.0.3",
+    "stylus": "^0.54.5",
+    "vue-template-compiler": "^2.5.16"
+  }
+}
