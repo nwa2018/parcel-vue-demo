@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nwa2018/parcel-vue-demo.git"
@@ -19,8 +16,8 @@
     "page": "./src/page"
   },
   "scripts": {
-    "dev": "rm -rf .cache && parcel serve ./index.html --open -p 4567 --out-dir public",
-    "build": "rm -rf .cache public && parcel build ./index.html --out-dir public"
+    "dev": "parcel serve ./index.html --open -p 4567 --out-dir dist --no-cache",
+    "build": "parcel build ./index.html --out-dir public --no-cache"
   },
   "homepage": "https://github.com/nwa2018/parcel-vue-demo#readme",
   "dependencies": {

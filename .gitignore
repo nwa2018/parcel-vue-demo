@@ -3,5 +3,6 @@ yarn.lock
 npm-debug
 .cache
 public
+dist
 .firebaserc
 firebase.json
