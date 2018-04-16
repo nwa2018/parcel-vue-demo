@@ -1,5 +1,7 @@
 # parcel&vue初始demo
 
+支持.vue组件, stylus, pug, es6
+
 注：如果你此前已安装parcel，请确保全局安装的parcel版本 >= 1.7.0
 
 前置安装
